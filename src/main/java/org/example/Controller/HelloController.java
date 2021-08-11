@@ -8,7 +8,7 @@ public class HelloController
 	@RequestMapping("/hello")
 	public String redirect() 
 	{
-		System.out.println("Controller");
+		System.out.println("Controller message");
 		return "viewpage";
 	}
 	@RequestMapping("/helloagain")
